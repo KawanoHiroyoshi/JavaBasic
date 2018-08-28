@@ -29,6 +29,19 @@ public class PTra05_02 {
 		 *
 		 *  ※##は変数inputの中身
 		 */
-
+		int input;
+		input = Integer.parseInt(line);
+		
+		input = input % 2;
+	
+		
+		switch(input) {
+		case 0:
+			System.out.println(line + "は偶数です");
+			break;
+		default:
+			System.out.println(line + "は奇数です");
+			break;
+		}
 	}
 }

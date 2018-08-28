@@ -10,7 +10,7 @@ public class PTra07_05 {
 	public static void main(String[] args) {
 
 		// ★ int型の配列arrayを宣言して、5個の領域を確保してください
-
+		int[] array = new int[5];
 
 		/*
 		 * ★ 下記の仕様でfor文を記述してください
@@ -19,14 +19,26 @@ public class PTra07_05 {
 		 * 条件式：変数iが、arrayの長さ未満である限り繰り返しを行います
 		 * 後処理：変数iに1を足して、変数iを上書きしてください
 		 */
-		//------for start
+		//------for start]
+		for(int i = 0; i < 5; i++) {
+			
+			
+		
+		
 
 			// ★ 0～100000の中からランダムで値を取得して、配列arrayのi番目に代入してください
-
+			 double  d ;
+			 
+		
+			 
+			 d =(int) (Math.random() * 100000);
+			 
+			 array[i] = (int)d;
+		
 
 			// ★ 配列arrayのi番目の値を出力してください
+			 System.out.println(array[i]);
 
-
-		//------for end
+		}//------for end
 	}
 }

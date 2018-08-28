@@ -14,40 +14,40 @@ public class PTra04_02 {
 		index = 1;
 
 		// ★ 変数indexが100以下である場合繰り返す条件式を記述してください
-		while (index > 100) {
+		while (index < 100) {
+			
 
 			// ★ 変数indexの値が3でも5でも割り切れる数の場合は、「FizzBuzz」と出力
 			if(index % 3 == 0) {
-				if(index % 5 ==0) {
-					System.out.println("FizzBuzz");
-					index = index +1;
+				if(index % 5 == 0) {
+					System.out.println("FizzPizz");
+					
 				}
 			}
 
 			// ★ 変数indexの値が3で割り切れ、5で割り切れない場合は、「Fizz」と出力
 			if(index % 3 == 0) {
-				if(index % 5 !=0) {
+				if(index % 5 != 0) {
 					System.out.println("Fizz");
-					index = index +1;
+					
 				}
 			}
 
 			// ★ 変数indexの値が5で割り切れ、3で割り切れない場合は、「Buzz」と出力
 			if(index % 5 == 0) {
-				if(index % 3 !=0) {
-					System.out.println("FizzBuzz");
-					index = index +1;
+				if(index % 3 != 0) {
+					System.out.println("Bizz");
+					
 				}
 			}
 
 			// ★ 変数indexの値が3でも5でも割り切れない場合は、変数indexの値を出力
-			if(index % 3 != 0) {
-				System.out.println(index);}
-			
-				else if(index % 5 !=0) {
+			if(index % 5 != 0) {
+				if(index % 3 != 0) {
 					System.out.println(index);
-					index = index +1;
+					
 				}
+			}
 			
 			
 			
@@ -55,10 +55,9 @@ public class PTra04_02 {
 
 			// ★ 変数indexに1を加算した数を、変数indexに代入する
 			
-			}
-		System.out.println(index);
-		index = index +1;
+			index = index +1;
 		}
+	}
 }
 	
 
