@@ -17,10 +17,9 @@ public class PTra10_03 {
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
 		int i;
-		
-
+		User us;
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
-		User us = new User() ;
+		us = new User() ;
 
 		System.out.println("ユーザID（数字）、 ユーザ名、メールアドレス、パスワードをカンマ区切りで入力してください");
 
@@ -33,7 +32,7 @@ public class PTra10_03 {
 		String line = scanner.nextLine();
 		
 		// ★ 変数lineに格納されている値を','で区切り、配列にしてください（Stringクラスのメソッドを使用します） 
-		String[] lin = line.split(",",4);
+		String[] lin = line.split(",");
 		
 		
 

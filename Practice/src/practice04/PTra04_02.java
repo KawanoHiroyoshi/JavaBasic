@@ -10,43 +10,41 @@ public class PTra04_02 {
 	public static void main(String[] args) {
 		// 通称「FizzBuzz問題」です
 		// ★ int型の変数indexを定義し、1で初期化してください
-		int index;
-		index = 1;
+		int index = 1;
 
 		// ★ 変数indexが100以下である場合繰り返す条件式を記述してください
-		while (index < 100) {
+		while (index <= 100) {
 			
 
 			// ★ 変数indexの値が3でも5でも割り切れる数の場合は、「FizzBuzz」と出力
-			if(index % 3 == 0) {
-				if(index % 5 == 0) {
+			if(index % 3 == 0 && index % 5 == 0) {
 					System.out.println("FizzPizz");
 					
-				}
+				
 			}
 
 			// ★ 変数indexの値が3で割り切れ、5で割り切れない場合は、「Fizz」と出力
-			if(index % 3 == 0) {
-				if(index % 5 != 0) {
+			if(index % 3 == 0 && index % 5 != 0) {
+				
 					System.out.println("Fizz");
 					
-				}
+				
 			}
 
 			// ★ 変数indexの値が5で割り切れ、3で割り切れない場合は、「Buzz」と出力
-			if(index % 5 == 0) {
-				if(index % 3 != 0) {
+			if(index % 5 == 0 && index % 3 != 0) {
+				
 					System.out.println("Bizz");
 					
-				}
+				
 			}
 
 			// ★ 変数indexの値が3でも5でも割り切れない場合は、変数indexの値を出力
-			if(index % 5 != 0) {
-				if(index % 3 != 0) {
+			if(index % 5 != 0 && index % 3 != 0) {
+			
 					System.out.println(index);
 					
-				}
+				
 			}
 			
 			

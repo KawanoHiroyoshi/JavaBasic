@@ -53,9 +53,7 @@ public class PTra08_05 {
 	 * 引数で渡された横の長さ(width)と縦の長さ(height)から、四角形の面積を返すメソッド
 	 */
 	public static double quadrangle(double width,double height) {
-		double qua;
-		qua = width * height;
-		return qua;
+		return width * height;
 	}
 
 
@@ -69,8 +67,6 @@ public class PTra08_05 {
 	 * 引数で渡された横の長さ(width)と縦の長さ(height)から、三角形の面積を返すメソッド
 	 */
 	public static double triangle(double width,double height) {
-		double tri;
-		tri = (width * height) / 2;
-		return tri;
+		return (width * height) / 2;
 }
 }

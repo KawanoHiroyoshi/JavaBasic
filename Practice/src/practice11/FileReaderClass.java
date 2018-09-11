@@ -16,7 +16,7 @@ import java.util.Scanner;
  */
 public class FileReaderClass {
 
-	private FileReaderClass() {
+	FileReaderClass() {
 		/* インスタンス化を禁止 */
 	}
 

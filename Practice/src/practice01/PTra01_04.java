@@ -17,7 +17,7 @@ public class PTra01_04 {
 		f = (float)3.14;
 
 		// ★ 変数 f を出力してください
-System.out.println(f);
+		System.out.println(f);
 
 	}
 }

@@ -35,7 +35,7 @@ public class PTra05_02 {
 		input = input % 2;
 	
 		
-		switch(input) {
+		switch(input % 2) {
 		case 0:
 			System.out.println(line + "は偶数です");
 			break;

@@ -27,24 +27,14 @@ public class PTra03_06 {
 		 */
 		
 		
-		if(random > 100) {
-			System.out.println("☆☆☆");
-		}
-		if(random < 100) {
-			if(random > 71) {
+		if(random <= 100 && random > 70) {
 			System.out.println("☆☆☆☆☆");
-		}
+		}else if(random <= 70 && random > 30) {
+			System.out.println("☆☆☆☆");
+			}else {
+				System.out.println("☆☆☆");
 	}
 		
-		if(random > 31) {
-			if(random < 71) {
-				System.out.println("☆☆☆☆");
-		}
-	}
-		if(random < 31) {
-			
-			System.out.println("☆☆☆");
-		}
 		
-}
+	}
 }

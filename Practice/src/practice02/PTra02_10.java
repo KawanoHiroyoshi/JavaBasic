@@ -35,7 +35,7 @@ public class PTra02_10 {
 		moneyInHand = moneyInHand - (coffee + snack);
 		moneyInHand = moneyInHand - tex;
 		
-		System.out.println(moneyInHand);
+		System.out.println("所持金：" + moneyInHand);
 
 	}
 }

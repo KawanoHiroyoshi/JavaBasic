@@ -10,13 +10,12 @@ public class PTra08_03 {
 	public static void main(String[] args) {
 
 		// ★ 0～100のランダムな値を取得して、変数numberに代入してください
-		int number;
-		number = (int) (Math.random() * 100);
+		int number = (int) (Math.random() * 100);
+	
 		// ★ 変数resultを宣言し、メソッドisEvenNumberを（変数number）で呼び出した結果を代入してください
 
-		 boolean result;
-		 result = false;
-		 
+		 boolean result= false;
+		
 		 
 		result = isEvenNumber(number);
 		 
@@ -39,16 +38,11 @@ public class PTra08_03 {
 	 */
 	public static boolean isEvenNumber(int number){
 		
-		if(number == 0) {
+		if(number % 2 == 0) {
 			return true;
-		}
-		if(number % 2 == 0)
-		{
-			return true;
-			}
-		else {
-			return  false;
-		}
+		}else {
+			return  false;}
+			
 		
 	}
 	

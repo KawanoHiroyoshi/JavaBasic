@@ -6,6 +6,9 @@
  */
 package practice13.ptra13;
 
+import practice13.common.Hero;
+import practice13.common.SuperHero;
+
 public class PTra13_06 {
 
 	/*
@@ -20,5 +23,4 @@ public class PTra13_06 {
 	 *
 	 * 		equipmentのアクセサ
 	 */
-
-}
+	

@@ -21,9 +21,7 @@ public class PTra06_02 {
 			System.out.println("今は" + i + "回目です");
 
 			// ★ 奇数回のときには、「奇数」を出力してください
-			int j;
-			j = i % 2;
-			if(j != 0) {
+			if (i  % 2 != 0) {
 				System.out.println("奇数");
 			}
 

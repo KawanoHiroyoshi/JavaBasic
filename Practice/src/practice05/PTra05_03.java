@@ -41,7 +41,7 @@ public class PTra05_03 {
 
 			// コマンドプロンプトで入力した文字列が変数lineに代入されます
 			String line = scanner.nextLine();
-
+			
 			/*
 			 * ★ 以下の仕様で、switch文を記述してください
 			 *
@@ -52,7 +52,7 @@ public class PTra05_03 {
 			 */
 			switch(line) {
 			case "山":
-				mountain = mountain + 1;
+				mountain = mountain +1;
 				break;
 			case "川":
 				river = river + 1;

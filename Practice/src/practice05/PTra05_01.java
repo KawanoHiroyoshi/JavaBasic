@@ -10,8 +10,8 @@ public class PTra05_01 {
 	public static void main(String[] args) {
 
 		// ★ int型の変数numを宣言し、5で初期化してください
-		int num;
-		num = 5;
+		int num = 5;
+		
 		
 
 		/*

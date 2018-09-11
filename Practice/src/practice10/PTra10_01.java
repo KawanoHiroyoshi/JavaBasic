@@ -26,11 +26,11 @@ public class PTra10_01 {
 
 		// Userクラスを作成後に着手してください
 		// ★ User型の変数usを宣言してください
-
+		User us;
 		// ★ 変数usに、Userクラスのインスタンスを作成・代入してください
 		
 		
-		User us = new User();
+		us = new User();
 		
 		
 		

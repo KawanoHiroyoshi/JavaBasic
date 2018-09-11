@@ -72,9 +72,10 @@ public class Character {
 			// 必ず1ダメージは入るようにする
 			calc = 1;
 		}
-
+		
 		// ダメージ分体力を減らす
 		this.hp -= calc;
+		
 
 		// 体力がなくなったかどうかの判定
 		if (this.hp <= 0) {

@@ -24,7 +24,7 @@ public class Book {
 	 * @param publication	出版社
 	 */
 	Book(String title, String author, int price, int pageSize, String publication) {
-		this.title = title;
+		this.tilte = title;
 		this.author = author;
 		this.price = price;
 		this.pageSize = pageSize;
@@ -32,7 +32,7 @@ public class Book {
 	}
 
 	/** 本のタイトル */
-	String title;
+	String tilte;
 
 	/** 著者 */
 	String author;
@@ -57,7 +57,7 @@ public class Book {
 		// 本情報の文字列生成
 		StringBuilder str = new StringBuilder();
 		str.append("本のタイトル：");
-		str.append(this.title);
+		str.append(this.tilte);
 		str.append("\n");
 		str.append("著者　　　　：");
 		str.append(this.author);
@@ -77,3 +77,4 @@ public class Book {
 
 	}
 }
+

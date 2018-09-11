@@ -20,7 +20,7 @@ public class PTra07_05 {
 		 * 後処理：変数iに1を足して、変数iを上書きしてください
 		 */
 		//------for start]
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < array.length; i++) {
 			
 			
 		
